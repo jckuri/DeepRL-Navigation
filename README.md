@@ -13,7 +13,7 @@ You can find the saved model weights here: [checkpoint.pth](checkpoint.pth)
 
 ## Getting Started
 
-requirements.txt
+The easiest way to install the requirements is to use the file [requirements.txt](python/requirements.txt)
 ```
 tensorflow==1.7.1
 Pillow>=4.2.1
