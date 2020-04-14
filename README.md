@@ -3,7 +3,11 @@ Project 1 "Navigation" of the Deep Reinforcement Learning nanodegree.
 
 ## Training Code
 
+You can find the training code here: [Navigation.ipynb](Navigation.ipynb)
+
 ## Saved Model Weights
+
+You can find the saved model weights here: [checkpoint.pth](checkpoint.pth)
 
 ## Project Details
 
@@ -31,3 +35,4 @@ ipykernel
 
 ## Report
 
+You can find the report here: [Report.md](Report.md)
