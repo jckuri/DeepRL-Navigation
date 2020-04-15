@@ -17,6 +17,8 @@ https://youtu.be/oauLZG9nAX0
 Deep Reinforcement Learning (IEEE Computer Society)<br/>
 https://youtu.be/rf91xKkoP6w
 
+In summary, Deep Reinforcement Learning (Deep RL) is an extension of Reinforcement Learning (RL) that uses Deep Learning techniques in order to handle complex continuous states instead of simple discrete states. 
+
 ## Plot of Rewards
 
 ![Plot of rewards (training)](/images/plot-of-rewards-training.png)
