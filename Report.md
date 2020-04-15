@@ -5,7 +5,9 @@ Project 1 "Navigation" of the Deep Reinforcement Learning nanodegree.
 
 To be honest, I copied and pasted the source code of the Jupyter notebook ""
 
-<img src="/images/not-sure-where-to-start.png" width="50%">
+<p align="center">
+ <img src="/images/not-sure-where-to-start.png" width="50%">
+</p>
 
 ## Plot of Rewards
 
