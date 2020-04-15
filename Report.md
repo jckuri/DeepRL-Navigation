@@ -11,10 +11,10 @@ To be honest, I copied and pasted the source code of the Jupyter notebook "Deep_
 
 I did it because I'm sick of Covid-19. I feel very tired. Otherwise I'm an expert in Deep Reinforcement Learning as you can see in the seminars I gave last year:
 
-Webinar on Deep Reinforcement Learning (Secure & Private AI Scholarship Challenge)
+Webinar on Deep Reinforcement Learning (Secure & Private AI Scholarship Challenge)<br/>
 https://youtu.be/oauLZG9nAX0
 
-Deep Reinforcement Learning (IEEE Computer Society)
+Deep Reinforcement Learning (IEEE Computer Society)<br/>
 https://youtu.be/rf91xKkoP6w
 
 ## Plot of Rewards
