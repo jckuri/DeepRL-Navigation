@@ -23,13 +23,16 @@ The solution code I copied uses:
 - Vanilla Deep Q-Network;
 - Double Deep Q-Network to avoid oscillations caused by overestimated rewards;
 - Experience Replay in order to keep training the Q-Network with past experiences;
-- Epsilon Greedy in order to balance exploration at the begining versus explotation at the end;
+- Epsilon Greedy with geometric decay of 0.995, in order to balance exploration at the begining (epsilon=1) versus explotation at the end (epsilon=0.01);
+- Adam optimizer with learning rate of 5e-4;
+- BATCH_SIZE=64 (the number of experience tuples per training iteration);
+- GAMMA=0.99 (the Q-Network is aware of the intermediate future, but not the far future);
 - A deep neural network to represent complex continuous states.
 
 The deep neural network to represent complex continuous states has:
-- A linear fully-connected layers of dimensions state_size=37 and fc1_units=64;
-- A linear fully-connected layers of dimensions fc1_units=64 and fc2_units=64;
-- A linear fully-connected layers of dimensions fc2_units=64 and action_size=4.
+- A linear fully-connected layer of dimensions state_size=37 and fc1_units=64;
+- A linear fully-connected layer of dimensions fc1_units=64 and fc2_units=64;
+- A linear fully-connected layer of dimensions fc2_units=64 and action_size=4.
 
 ## Plot of Rewards
 
