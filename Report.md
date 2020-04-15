@@ -9,6 +9,14 @@ To be honest, I copied and pasted the source code of the Jupyter notebook "Deep_
  <img src="/images/not-sure-where-to-start.png" width="50%">
 </p>
 
+I did it because I'm sick of Covid-19. I feel very tired. Otherwise I'm an expert in Deep Reinforcement Learning as you can see in the seminars I gave last year:
+
+Webinar on Deep Reinforcement Learning (Secure & Private AI Scholarship Challenge)
+https://youtu.be/oauLZG9nAX0
+
+Deep Reinforcement Learning (IEEE Computer Society)
+https://youtu.be/rf91xKkoP6w
+
 ## Plot of Rewards
 
 ![Plot of rewards (training)](/images/plot-of-rewards-training.png)
