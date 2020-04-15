@@ -26,6 +26,11 @@ The solution code I copied uses:
 - Epsilon Greedy in order to balance exploration at the begining versus explotation at the end;
 - A deep neural network to represent complex continuous states.
 
+The deep neural network to represent complex continuous states has:
+- A linear fully-connected layers of dimensions state_size=37 and fc1_units=64;
+- A linear fully-connected layers of dimensions fc1_units=64 and fc2_units=64;
+- A linear fully-connected layers of dimensions fc2_units=64 and action_size=4.
+
 ## Plot of Rewards
 
 ![Plot of rewards (training)](/images/plot-of-rewards-training.png)
