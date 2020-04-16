@@ -57,8 +57,8 @@ scipy
 ipykernel
 ```
 
-Execute this command in order to install the software specified in `requirements.txt`
-```pip -q install ./python```
+Execute this command in order to install the software specified in `requirements.txt`<br/>
+```pip -q install ./python```<br/>
 This command is executed at the beginning of the Jupyter notebook [Navigation.ipynb](Navigation.ipynb).
 
 If you have troubles when installing this project, you can write me at:<br/>
