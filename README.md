@@ -30,13 +30,13 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Getting Started
 
-Follow the instructions in this link in order to install all the dependencies required to run this project:
+Follow the instructions in this link in order to install all the dependencies required to run this project:<br/>
 https://github.com/udacity/deep-reinforcement-learning#dependencies
 
-Download the `Project 1 - Navigation` into your computer:
+Download the `Project 1 - Navigation` into your computer:<br/>
 https://github.com/jckuri/DeepRL-Navigation
 
-The easiest way to install the requirements is to use the file [requirements.txt](python/requirements.txt)
+The easiest way to install the requirements is to use the file [requirements.txt](python/requirements.txt)<br/>
 ```
 tensorflow==1.7.1
 Pillow>=4.2.1
@@ -54,15 +54,19 @@ scipy
 ipykernel
 ```
 
-Execute this command in order to install the software specified in `requirements.txt`
+Execute this command in order to install the software specified in `requirements.txt`<br/>
 `pip -q install ./python`
 
+If you have troubles installing this project, you can write me at:<br/>
+https://www.linkedin.com/in/jckuri/
 
 ## Instructions
 
 Follow the instructions in [Navigation.ipynb](Navigation.ipynb) to get started with training your own agent!
 
 To run all the cells in the Jupyter notebook again, go to the Jupyter notebook menu, and click on `Kernel` => `Restart & Run All`.
+
+At the end of the Jupyter notebook, there is a space in which you can program your own implementation of this DQN Agent.
 
 ## Report
 
