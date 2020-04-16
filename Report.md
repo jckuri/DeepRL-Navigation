@@ -19,7 +19,10 @@ https://youtu.be/rf91xKkoP6w
 
 In summary, Deep Reinforcement Learning (Deep RL) is an extension of Reinforcement Learning (RL) that uses Deep Learning techniques in order to handle complex continuous states instead of simple discrete states. RL is the branch of artificial intelligence that programs algorithms capable of learning and improving from experience in the form of SARS tuples: State 0, Action, Reward, and State 1. This kind of algorithms and problems are very general because they are based on search algorithms, general problem solvers (GPS), and statistics.
 
-The DQN Agent senses the environment and take some actions to maximize the reward.
+In my presentation at http://bit.do/DeepRL, there is a great explanation of the DQN algorith:
+- The DQN Agent senses the environment and take some actions to maximize the reward.
+- The deep neural network to represent complex states can be as complex as a convolutional neural network capable of seeing raw pixel and actions can be the combinations of directions and buttons of a joystick.
+- We define a loss function based on the formulae of RL. In that way, an RL problem is transformed into a supervised learning problem because we can apply the gradient descent technique to minimize the loss function.
 
 <p align="center">
  <img src="/images/math.png">
