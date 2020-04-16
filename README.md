@@ -36,6 +36,9 @@ https://github.com/udacity/deep-reinforcement-learning#dependencies
 Download the `Project 1 - Navigation` into your computer:<br/>
 https://github.com/jckuri/DeepRL-Navigation
 
+Follow the instructions in this link in order to install the Unity environment required to run this project:<br/>
+https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation#getting-started
+
 The easiest way to install the requirements is to use the file [requirements.txt](python/requirements.txt)<br/>
 ```
 tensorflow==1.7.1
@@ -55,7 +58,8 @@ ipykernel
 ```
 
 Execute this command in order to install the software specified in `requirements.txt`<br/>
-`pip -q install ./python`
+`pip -q install ./python`<br/>
+This command is executed at the beginning of the Jupyter notebook [Navigation.ipynb](Navigation.ipynb).
 
 If you have troubles installing this project, you can write me at:<br/>
 https://www.linkedin.com/in/jckuri/
