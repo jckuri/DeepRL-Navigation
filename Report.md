@@ -50,12 +50,17 @@ Episode 706	Average Score: 15.07
 Environment solved in 606 episodes!	Average Score: 15.07
 ```
 
-The rubric asks to obtain an average score of 13 for 100 episodes. I increased that value to 15. As a result, the Q-Network achieved a score greater than 15 in 706 episodes of training. The best model was saved.
+The rubric asks to obtain an average score of 13 for 100 episodes. I increased that value to 15. As a result, the Q-Network achieved a score greater than 15 in 706 episodes of training. The best model was saved. In the graph, the blue lines connect the scores in each episode. Whereas the red lines connect the average scores in each episode.
 
 ![Plot of rewards (training)](/images/plot-of-rewards-training.png)
 
-After training, the saved model was loaded and tested for 20 episodes. Here are the results of such testing. You can see that on average, the scores are greater than 15.
+After training, the saved model was loaded and tested for 20 episodes. Here are the results of such testing. You can see that on average, the scores are greater than 15. In the graph, the blue lines connect the scores in each episode.
 
 ![Plot of rewards (testing)](/images/plot-of-rewards-testing.png)
 
 ## Ideas for Future Work
+
+I can improve this Q-Network because it is just a copy of the source code of the Jupyter notebook "Deep_Q_Network_Solution.ipynb" of Part 2. Value-Based Methods; Lesson 2: Deep Q-Networks; 7. Workspace. I even copied the hyperparameters. Hence, I can improve the performance of this Q-Network by doing a meta-optimization of parameters.
+
+Moreover, I can implement all the elements of DeepMind's Rainbow architecture in order to make this Q-Network converge faster and find a better local optimum:
+- 
