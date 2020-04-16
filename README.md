@@ -60,6 +60,10 @@ Execute this command in order to install the software specified in `requirements
 
 ## Instructions
 
+Follow the instructions in [Navigation.ipynb](Navigation.ipynb) to get started with training your own agent!
+
+To run all the cells in the Jupyter notebook again, go to the Jupyter notebook menu, and click on `Kernel` => `Restart & Run All`.
+
 ## Report
 
 You can find the report here: [Report.md](Report.md)
