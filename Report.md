@@ -68,3 +68,5 @@ So far, this implementation only has 2 extensions to the original DQN algorithm:
 - Learning from multi-step bootstrap targets (as in A3C);
 - Distributional DQN;
 - Noisy DQN.
+
+Perhaps learning from pixels could produce much better results than the low-resolution states produced by ray-tracing sensors.
