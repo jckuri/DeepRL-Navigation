@@ -3,7 +3,7 @@ Project 1 "Navigation" of the Deep Reinforcement Learning nanodegree.
 
 ## Training Code
 
-You can find the training code here: [Navigation.ipynb](Navigation.ipynb)
+You can find the training code here: [Navigation.ipynb](Navigation.ipynb) and [dqn_agent.py](dqn_agent.py)
 
 ## Saved Model Weights
 
