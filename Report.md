@@ -62,5 +62,9 @@ After training, the saved model was loaded and tested for 20 episodes. Here are 
 
 I can improve this Q-Network because it is just a copy of the source code of the Jupyter notebook "Deep_Q_Network_Solution.ipynb" of Part 2. Value-Based Methods; Lesson 2: Deep Q-Networks; 7. Workspace. I even copied the hyperparameters. Hence, I can improve the performance of this Q-Network by doing a meta-optimization of parameters.
 
-Moreover, I can implement all the elements of DeepMind's Rainbow architecture in order to make this Q-Network converge faster and find a better local optimum:
-- 
+So far, this implementation only has 2 extensions to the original DQN algorithm: Experience Replay and Double DQN. I can implement all the other extensions of DeepMind's Rainbow architecture in order to make this Q-Network converge faster and find a better local optimum:
+- Prioritized experience replay;
+- Dueling DQN;
+- Learning from multi-step bootstrap targets (as in A3C);
+- Distributional DQN;
+- Noisy DQN.
