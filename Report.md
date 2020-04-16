@@ -30,7 +30,7 @@ In my presentation at http://bit.do/DeepRL, there is a great explanation of the 
 
 The solution code I copied uses:
 - Vanilla Deep Q-Network;
-- Double Deep Q-Network to avoid oscillations caused by overestimated rewards;
+- Double Deep Q-Network to avoid oscillations caused by overestimated Q-values;
 - Experience Replay in order to keep training the Q-Network with past experiences;
 - Epsilon Greedy with geometric decay of 0.995, in order to balance exploration at the begining (epsilon=1) versus explotation at the end (epsilon=0.01);
 - Adam optimizer with learning rate of 5e-4;
