@@ -45,7 +45,7 @@ The deep neural network to represent complex continuous states has:
 
 ## Plot of Rewards
 
-The Q-Nework was trained for 706 episodes. In each episode, the agent is trained from the begining to the end of the simulation. Some episodes are larger and some episodes are shorter, depending when the ending condition of each episode appears. Each episode has many iterations. In each iteration, the Q-Network is trained with `BATCH_SIzE=64` experience tuples (SARS).
+The Q-Nework was trained for 706 episodes. In each episode, the agent is trained from the begining to the end of the simulation. Some episodes are larger and some episodes are shorter, depending when the ending condition of each episode appears. Each episode has many iterations. In each iteration, the Q-Network is trained with `BATCH_SIZE=64` experience tuples (SARS).
 
 ```
 Episode 100	Average Score: 0.96
@@ -59,7 +59,7 @@ Episode 706	Average Score: 15.07
 Environment solved in 606 episodes!	Average Score: 15.07
 ```
 
-The rubric asks to obtain an average score of 13 for 100 episodes. I increased that value to 15. As a result, the Q-Network achieved a score greater than 15 in 706 episodes of training. The best model was saved. In the graph, the blue lines connect the scores in each episode. Whereas the red lines connect the average scores in each episode.
+The rubric asks to obtain an average score of 13 for 100 episodes. I increased that value to 15. As a result, the Q-Network achieved an average score greater than 15 in 706 episodes of training. The best model was saved. In the graph, the blue lines connect the scores in each episode. Whereas the red lines connect the average scores in each episode.
 
 ![Plot of rewards (training)](/images/plot-of-rewards-training.png)
 
