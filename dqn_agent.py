@@ -1,3 +1,6 @@
+# To be honest, I copied and pasted the source code of the Jupyter notebook "Deep_Q_Network_Solution.ipynb"
+# of Part 2. Value-Based Methods; Lesson 2: Deep Q-Networks; 7. Workspace.
+
 import numpy as np
 import random
 from collections import namedtuple, deque
